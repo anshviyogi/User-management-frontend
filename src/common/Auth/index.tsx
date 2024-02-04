@@ -139,6 +139,7 @@ function Authenticate({ type }: Props): JSX.Element {
                 name="email"
                 className="w-full border border-gray-400 outline-none focus:border-gray-600 px-4 py-2 rounded-md"
                 placeholder="Email"
+                aria-labelledby="email-label"
               />
               <span className="text-sm text-red-500">
                 {errors.email && errors.email}
@@ -152,6 +153,7 @@ function Authenticate({ type }: Props): JSX.Element {
                 name="password"
                 className="w-full border border-gray-400 outline-none focus:border-gray-600 px-4 py-2 rounded-md"
                 placeholder="Password"
+                aria-labelledby="password-label"
               />
               <span className="text-sm text-red-500">{errors.password}</span>
             </div>
