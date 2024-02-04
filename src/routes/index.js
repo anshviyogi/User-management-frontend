@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Authenticate from "../common/Auth/index.tsx";
-import Dashboard from "../Components/Dashboard";
-import Wrapper from "../helper/Wrapper";
+import Dashboard from "../Components/Dashboard/index.tsx";
+import Wrapper from "../helper/Wrapper.ts";
 
 export const router = createBrowserRouter([
     {
